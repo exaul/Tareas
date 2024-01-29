@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Depuración</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+      <h2>Bienvenido a la calculadora</h2>
+    <input type="number" id="num1" placeholder="Ingrese el primer número">
+    <input type="number" id="num2" placeholder="Ingrese el segundo número">
+    <select id="operation">
+      <option value="add">Suma</option>
+      <option value="subtract">Resta</option>
+      <option value="multiply">Multiplicación</option>
+      <option value="divide">División</option>
+    </select>
+    <button onclick="calculate()">Calcular</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="js/practica8.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego de Carreras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        #container {
+            margin: 20px auto;
+            width: 300px;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juego de Carreras</h1>
+    <div id="container">
+        <p>Elige un vehículo para la carrera:</p>
+        <button onclick="iniciarCarrera(1)">Coche 1</button>
+        <button onclick="iniciarCarrera(2)">Coche 2</button>
+        <button onclick="iniciarCarrera(3)">Moto 1</button>
+        <button onclick="iniciarCarrera(4)">Moto 2</button>
+        <button onclick="iniciarCarrera(5)">Camión</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="practica6.js"></script>
+</body>
+</html>

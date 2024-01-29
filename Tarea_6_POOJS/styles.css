@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .car-info {
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .car-info h2 {
+    color: #333;
+  }
+  
+  .car-info p {
+    color: #555;
+  }
